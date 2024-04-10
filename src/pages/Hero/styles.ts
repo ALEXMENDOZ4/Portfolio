@@ -1,8 +1,19 @@
-import { styled } from "styled-components";
+import { styled, keyframes } from "styled-components";
 import { colors } from "../../styles/colors";
 import { sizes, sizesResponsive1240, sizesResponsive470, sizesResponsive950 } from "../../styles/sizes";
 import { fontweight } from "../../styles/fontweight";
 import photo from '../../images/background.png';
+
+const slideInFromBottom = keyframes`
+  from {
+    transform: scale(.6);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+`;
 
 export const Section = styled.section`
   /* padding: 110px 0 90px 16%; */
@@ -24,8 +35,8 @@ export const Section = styled.section`
     min-width: 200px;
     max-width: 400px;
     border-radius: .5rem;
-    border: 7px solid ${colors.mainColor};
-    box-shadow: 0 0 20px ${colors.mainColor}
+    border: 5px solid ${colors.mainColor};
+    box-shadow: 0 0 15px ${colors.mainColor}
   }
   
 
@@ -34,9 +45,20 @@ export const Section = styled.section`
   }
 
   .main-btn {
+
+    display: flex;
+
+    a{
+      white-space: nowrap;
+    }
+
     a:nth-child(2) {
       margin-left: 0.5rem;
     }
+  }
+
+  .main-content{
+    animation: ${slideInFromBottom} 1s ease-in-out forwards;
   }
 
   .main-content h4 {
@@ -159,7 +181,7 @@ export const Section = styled.section`
     }
   }
 
-  @media(max-width: 680px){
+  @media(max-width: 718px){
     .main-content p {
         width: 100%;
     }
@@ -172,6 +194,13 @@ export const Section = styled.section`
 
     h2{
       font-size: ${sizesResponsive470.h2} !important;
+    }
+  }
+
+  @media(max-width: 930px){
+    
+    img{
+      display: none;
     }
   }
 `;

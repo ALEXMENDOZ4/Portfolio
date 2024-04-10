@@ -89,6 +89,13 @@ export const Header = styled.header<Iheader>`
     } 
 
     //media queries
+    @media(max-width: 480px){
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+    }
+
+    //media queries
     @media(max-width: 1700px){
         padding: 20px 8%;
         padding: ${({$issticky}) => $issticky ? "14px 8%": ""};

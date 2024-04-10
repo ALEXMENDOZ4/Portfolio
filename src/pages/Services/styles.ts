@@ -20,6 +20,7 @@ export const Services = styled.section`
 
   .services-content {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
     gap: 2.3rem;
@@ -79,6 +80,33 @@ export const Services = styled.section`
   .box:hover {
     border: 1px solid ${colors.mainColor};
     transform: translateY(-5px) scale(1.03);
+  }
+
+  .technologies{
+
+    svg{
+      font-size: 3rem;
+      margin: 0 .3rem;
+      transition: all ease-in-out .3s;
+      margin-bottom: 1rem;
+    }
+    svg:nth-child(1){
+      color: #f1c40f;
+    }
+    svg:nth-child(3){
+      color: #d63031;
+    }
+    svg:nth-child(5){
+      color: #0984e3;
+    }
+    svg:nth-child(6){
+      color: #f5f6fa;
+    }
+
+    svg:hover{
+      opacity: .7;
+      transform: translateY(-10px) scale(1.03);
+    }
   }
 
   //media queries

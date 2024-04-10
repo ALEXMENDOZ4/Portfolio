@@ -11,7 +11,9 @@ const Hero = () => {
   return (
     <>
       <sc.Section className="hero" id="home">
-        <div className="main-content">
+        <div className="main-content"
+        // data-aos="zoom-in"
+        >
           <h4>Hi, There!</h4>
           <h1>I'm <span>Alex Mendoza</span></h1>
           <p>I am a passionate software developer, an architect of digital dreams and a builder of virtual realities. Every line of code I write is a fragment of my creativity and dedication.</p>
@@ -25,10 +27,10 @@ const Hero = () => {
           </div>
           <div className="main-btn">
               <a href="#" className="btn">Hire me</a>
-              <a href="https://drive.google.com/file/d/1ZHJLwSrRpKB5pewmTXBJHT7GGWxP83S8/view?usp=sharing" target='_blank' download="Curriculum Alex Mendoza" className="btn btn2">Download CV</a>
+              <a href="https://drive.google.com/file/d/1wpDPS1dGZuTd5FuBDceuCteX34CJ7CeU/view?usp=sharing" target='_blank' download="Curriculum Alex Mendoza" className="btn btn2">Download CV</a>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <img src={photo} alt="foto" />
         </div>
       </sc.Section>

@@ -6,12 +6,11 @@ import * as sc from './styles';
 const About = () => {
   return (
     <sc.About className="about" id="about">
-      <div className="about-img">
+      <div data-aos="fade-right" className="about-img">
         {/* <img src={about} alt="about" /> */}
         <img src={photo} alt="about" />
       </div>
-      {/* <a href="https://glittering-platypus-d807dd.netlify.app/" target="_blank">APP...</a> */}
-      <div className='about-text'>
+      <div data-aos="fade-up" className='about-text'>
         <h2>I am <span>software developer</span> <br />
         </h2>
         <div className='exp-area'>

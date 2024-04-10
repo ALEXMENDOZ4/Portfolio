@@ -27,10 +27,10 @@ export const PortFolio = styled.section`
   }
 
   .row img {
-    height: auto;
+    height: 200px;
     width: 100%;
     border-radius: 28px;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.5rem;
   }
 
   .row {
@@ -50,16 +50,15 @@ export const PortFolio = styled.section`
   }
 
   .row h5 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: ${colors.otherColor};
   }
-
+  
   .row .row-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
     width: 55px;
     height: 55px;
     background-color: #075fe4;

@@ -51,7 +51,7 @@ const Contact = () => {
   return (
     <>
       {loading && <sc.Loading><GridLoader color="#13bbff" margin={8}/></sc.Loading>}
-      <sc.Contact className='contact' id='contact'>
+      <sc.Contact data-aos="zoom-in" className='contact' id='contact'>
         <div className='center-text'>
             <h2>Contact <span>Me</span></h2>
         </div>

@@ -1,10 +1,22 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { colors } from "../../styles/colors";
 import { sizes, sizesResponsive1240, sizesResponsive470, sizesResponsive950 } from "../../styles/sizes";
 import { fontweight } from "../../styles/fontweight";
 
+const slideInFromBottom = keyframes`
+  from {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`;
+
 export const Contact = styled.section`
   padding: 5rem 15rem;
+  animation: ${slideInFromBottom} 1s ease-in-out;
 
   .center-text {
     text-align: center;
@@ -42,6 +54,12 @@ export const Contact = styled.section`
     border-radius: 8px;
   }
 
+  textarea{
+    resize: vertical;
+    min-height: 200px;
+    max-height: 200px;
+  }
+
   form input::placeholder,form textarea::placeholder{
     color: ${colors.otherColor};
     font-size: 15px;
@@ -58,6 +76,11 @@ export const Contact = styled.section`
     font-weight: ${fontweight[600]};
     transition: all 0.5s ease;
     width: 30%;
+    
+    //media queries
+    @media(max-width: 800px){
+      min-width: 100%;
+    }
   }
 
   form .send-btn:hover{
@@ -116,7 +139,7 @@ export const Loading = styled.div`
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, .2);
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   position: fixed;
   left: 0;
