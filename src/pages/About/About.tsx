@@ -15,27 +15,27 @@ const About = () => {
         </h2>
         <div className='exp-area'>
           <p className='exp'>
-            Experience:
+            <span>Experience:</span>
             <span>3 Years</span>
           </p>
           <p className='exp'>
-            Epecialty:
+            <span>Epecialty:</span>
             <span>Product Designer, front-end developer, Developer</span>
           </p>
           <p className='exp'>
-            Address:
+            <span>Address:</span>
             <span>Soledad, Colombia</span>
           </p>
           <p className='exp'>
-            Email:
+            <span>Email:</span>
             <span>alexmendoza.pacheco@hotmail.com</span>
           </p>
           <p className='exp'>
-            Phone:
+            <span>Phone:</span>
             <span>+57 3146219186</span>
           </p>
           <p className='exp'>
-            Freelance:
+            <span>Freelance:</span>
             <span>Available</span>
           </p>
         </div>

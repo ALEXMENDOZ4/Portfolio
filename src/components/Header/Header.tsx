@@ -10,7 +10,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsSticky(window.scrollY > 120);
+      setIsSticky(window.scrollY > 20);
       setIcon(false);
     }
     

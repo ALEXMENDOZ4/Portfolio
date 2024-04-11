@@ -181,6 +181,13 @@ export const Section = styled.section`
     }
   }
 
+  @media(max-width: 930px){
+    
+    img{
+      display: none;
+    }
+  }
+
   @media(max-width: 718px){
     .main-content p {
         width: 100%;
@@ -197,10 +204,7 @@ export const Section = styled.section`
     }
   }
 
-  @media(max-width: 930px){
-    
-    img{
-      display: none;
-    }
+  @media(max-width: 375px){
+    padding: 0 1rem;
   }
 `;
