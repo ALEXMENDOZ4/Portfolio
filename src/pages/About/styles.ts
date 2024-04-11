@@ -136,7 +136,7 @@ export const About = styled.section`
     }
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 380px) {
     padding: 90px 0 80px;
 
     .exp-area {
