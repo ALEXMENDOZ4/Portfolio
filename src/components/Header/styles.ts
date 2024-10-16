@@ -133,8 +133,8 @@ export const Header = styled.header<Iheader>`
             font-size: 22px;
         }
 
-        .navList.active{
+        /* .navList.active{
             right: 0;
-        }
+        } */
     }
 `;
