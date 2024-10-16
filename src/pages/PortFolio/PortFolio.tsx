@@ -13,7 +13,7 @@ const PortFolio = () => {
   return (
     <sc.PortFolio className='portfolio' id='portfolio'>
         <div data-aos="zoom-in-up" className='center-text'>
-            <h2>My <span>Portfolio</span></h2>
+            <h2>My <span>Portfolio Alex Mendoza</span></h2>
         </div>
         <div data-aos="zoom-in-up" className='portfolio-content'>
             <a href="https://loan-front.vercel.app/" target="_blank" className='row'>
