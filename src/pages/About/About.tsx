@@ -16,7 +16,7 @@ const About = () => {
         <div className='exp-area'>
           <p className='exp'>
             <span>Experience:</span>
-            <span>3 Years</span>
+            <span>5 Years</span>
           </p>
           <p className='exp'>
             <span>Epecialty:</span>

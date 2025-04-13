@@ -26,8 +26,8 @@ const Hero = () => {
             <a href="https://twitter.com/alexmendoz78134" target='_blank'><FaTwitter/></a>
           </div>
           <div className="main-btn">
-              <a href="#" className="btn">Hire me</a>
-              <a href="https://drive.google.com/file/d/1wpDPS1dGZuTd5FuBDceuCteX34CJ7CeU/view?usp=sharing" target='_blank' download="Curriculum Alex Mendoza" className="btn btn2">Download CV</a>
+              <a href="#contact" className="btn">Hire me</a>
+              <a href="https://drive.google.com/file/d/1aQQFaD35_KwIRdHqpTbkMwTAtlMkSX3j/view?usp=sharing" target='_blank' download="Curriculum Alex Mendoza" className="btn btn2">Download CV</a>
           </div>
         </div>
         <div data-aos="fade-left">

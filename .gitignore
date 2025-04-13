@@ -25,3 +25,4 @@ vercel.json
 *.sw?
 
 .vercel
+.env

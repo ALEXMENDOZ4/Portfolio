@@ -35,8 +35,8 @@ export const Section = styled.section`
     min-width: 200px;
     max-width: 400px;
     border-radius: .5rem;
-    border: 5px solid ${colors.mainColor};
-    box-shadow: 0 0 15px ${colors.mainColor}
+    border: 2px solid ${colors.mainColor};
+    box-shadow: 0 0 10px ${colors.mainColor}
   }
   
 
@@ -186,6 +186,7 @@ export const Section = styled.section`
     img{
       display: none;
     }
+
   }
 
   @media(max-width: 718px){
